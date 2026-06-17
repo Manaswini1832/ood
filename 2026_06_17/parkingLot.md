@@ -29,3 +29,13 @@
       - Singleton ParkingLot instance
       - PricingStrategy pattern : HourlyPricingStrategy, WeekendPricingStrategy
       - VehicleFactory to create different vehicles --> skipping for now since focus should be on parking lot and not vehicle creation. but I can do this during interview and ask the interviewer if they want me to code it up
+
+# Lessons learnt after solving
+1. Hashmaps are super useful for quick access: mp.get, mp.set in typescript
+2. PricingManager, ParkingLot singletons
+3. PricingStrategy interface which takes in a calculate method
+   - HourlyPricingStrategy
+   - WeekendPricingStrategy
+   - VIPPricingStrategy
+4. abstract Vehicle class that is extended by Car, Bicycle etc classes
+5. VehicleFactory to create different vehicle
